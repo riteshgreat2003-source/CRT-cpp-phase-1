@@ -108,6 +108,21 @@ int main(){
     }else{
         cout<<"Not a Prime Number";
     }
+//Problem 10
+//SmartPhone Unlock
+//Try to unlock the phone until we get the correct password
+#include<iostream>
+using namespace std;
 
+int main(){
+    int password;
+    do {
+        cout<<"Enter the password...";
+        cin>> password;
+    } while(password ! = 1234);
+    cout<< "Phone unlocked!...";
+    
+    return 0;
+}
     return 0;
 }
