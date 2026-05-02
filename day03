@@ -126,3 +126,19 @@ int main(){
     
     return 0;
 }
+//problem 11
+//Water Jar Filler(while)
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int currentwater = 0;
+    int add;
+    while(currentwater < 500){
+        cout << "Glass has" <<currentwater << "ml. and how much ?";
+        cin>> add;
+        currentwater = currentwater + add;
+    }
+    cout << "Glass is full with water: "<<currentwater << "ml";
+}
